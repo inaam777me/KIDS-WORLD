@@ -6,6 +6,16 @@ import {
   Star,
 } from "lucide-react";
 import { Category, Product } from "../types";
+import categoryHospitalImg from "../img/1.jpg";
+import categoryGroceriesImg from "../img/2.png";
+import categoryClothingImg from "../img/3.png";
+import categoryGiftsImg from "../img/4.png";
+import productEssentialsImg from "../img/5.jpg";
+import productDiapersImg from "../img/6.png";
+import productWalkerImg from "../img/7.jpg";
+import productHospitalKitImg from "../img/8.png";
+import productRomperImg from "../img/9.png";
+import productHamperImg from "../img/10.jpg";
 
 export const CATEGORIES: Category[] = [
   {
@@ -13,7 +23,7 @@ export const CATEGORIES: Category[] = [
     desc: "Maternity kits, diapers, baby blankets",
     iconName: "Stethoscope",
     bg: "bg-blue-50",
-    img: "./src/img/1.jpg",
+    img: categoryHospitalImg,
     color: "from-blue-400 to-blue-600"
   },
   {
@@ -21,7 +31,7 @@ export const CATEGORIES: Category[] = [
     desc: "Milk formula, baby food, feeding items",
     iconName: "Milk",
     bg: "bg-orange-50",
-    img: "./src/img/2.png",
+    img: categoryGroceriesImg,
     color: "from-orange-400 to-orange-600"
   },
   {
@@ -29,7 +39,7 @@ export const CATEGORIES: Category[] = [
     desc: "Rompers, newborn sets, caps, socks",
     iconName: "Shirt",
     bg: "bg-pink-50",
-    img: "./src/img/3.png",
+    img: categoryClothingImg,
     color: "from-pink-400 to-pink-600"
   },
   {
@@ -37,7 +47,7 @@ export const CATEGORIES: Category[] = [
     desc: "Toys, hampers, decorations",
     iconName: "Gift",
     bg: "bg-purple-50",
-    img: "./src/img/4.png",
+    img: categoryGiftsImg,
     color: "from-purple-400 to-purple-600"
   }
 ];
@@ -77,7 +87,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Baby Cheramy Essentials Set", 
     price: "Rs. 1,250.00", 
-    img: "./src/img/5.jpg",
+    img: productEssentialsImg,
     desc: "Trusted protection with soap, cologne, and oil.",
     rating: 4.8,
     reviews: 342,
@@ -86,7 +96,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Marvel Baby Taped Diapers", 
     price: "Rs. 2,450.00", 
-    img: "./src/img/6.png",
+    img: productDiapersImg,
     desc: "Ultra-absorbent layers with 12-hour protection.",
     rating: 4.9,
     reviews: 521,
@@ -95,7 +105,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "DBWL-01 Baby Walker", 
     price: "Rs. 8,900.00", 
-    img: "./src/img/7.jpg",
+    img: productWalkerImg,
     desc: "Safe and fun walker with musical tray.",
     rating: 4.7,
     reviews: 218,
@@ -104,7 +114,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Ultimate Hospital Kit", 
     price: "Rs. 15,500.00", 
-    img: "./src/img/8.png",
+    img: productHospitalKitImg,
     desc: "Complete set for your hospital delivery stay.",
     rating: 4.9,
     reviews: 456,
@@ -113,7 +123,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Organic Cotton Romper", 
     price: "Rs. 1,850.00", 
-    img: "./src/img/9.png",
+    img: productRomperImg,
     desc: "Soft, breathable cotton for newborn skin.",
     rating: 4.8,
     reviews: 389,
@@ -122,7 +132,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Newborn Gift Hamper", 
     price: "Rs. 12,000.00", 
-    img: "./src/img/10.jpg",
+    img: productHamperImg,
     desc: "Perfectly curated gift set for new arrivals.",
     rating: 4.9,
     reviews: 634,

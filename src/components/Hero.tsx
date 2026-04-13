@@ -1,14 +1,15 @@
 import { motion } from "motion/react";
 import { MessageCircle, ChevronRight, Sparkles } from "lucide-react";
+import heroBackgroundImg from "../img/1.jpg";
+import heroShowcaseImg from "../img/shop.jpg";
 
 export const Hero = () => (
   <section className="relative min-h-screen flex items-center pt-20 overflow-hidden" role="banner">
     <div className="absolute inset-0 z-0">
       <img 
-        src="https://picsum.photos/seed/baby-shop/1920/1080" 
+        src={heroBackgroundImg} 
         alt="Beautiful newborn baby in crib" 
         className="w-full h-full object-cover opacity-20"
-        referrerPolicy="no-referrer"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-baby-cream/50 via-baby-cream to-baby-cream" />
     </div>
@@ -86,10 +87,9 @@ export const Hero = () => (
       >
         <div className="relative z-10 rounded-[40px] overflow-hidden border-[12px] border-white card-shadow aspect-[4/5]">
           <img 
-            src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&h=750&fit=crop" 
+            src={heroShowcaseImg} 
             alt="Kids World Baby Boutique Shop Interior" 
             className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
           />
         </div>
         {/* Decorative elements */}

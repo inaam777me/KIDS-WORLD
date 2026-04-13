@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Stethoscope, Gift } from "lucide-react";
+import specialServicesImg from "../img/10.jpg";
 
 export const SpecialServices = () => (
   <section className="py-20 md:py-24 bg-white">
@@ -43,10 +44,9 @@ export const SpecialServices = () => (
             className="relative"
           >
             <img 
-              src="https://picsum.photos/seed/service/600/600" 
+              src={specialServicesImg} 
               alt="Gift wrapping service showcase" 
               className="rounded-[32px] md:rounded-[40px] w-full card-shadow"
-              referrerPolicy="no-referrer"
             />
           </motion.div>
         </div>
