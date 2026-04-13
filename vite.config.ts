@@ -5,7 +5,7 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
-  return {    base: '/KIDS-WORLD/',
+  return {    base: '/WORLD-BABY-KIDS/',
     build: {
       outDir: 'dist',
     },    plugins: [react(), tailwindcss()],
@@ -24,3 +24,4 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+
