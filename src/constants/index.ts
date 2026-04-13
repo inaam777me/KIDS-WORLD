@@ -13,7 +13,7 @@ export const CATEGORIES: Category[] = [
     desc: "Maternity kits, diapers, baby blankets",
     iconName: "Stethoscope",
     bg: "bg-blue-50",
-    img: "./src/img/Hospital Delivery Essentials.jpg",
+    img: "./src/img/1.jpg",
     color: "from-blue-400 to-blue-600"
   },
   {
@@ -21,7 +21,7 @@ export const CATEGORIES: Category[] = [
     desc: "Milk formula, baby food, feeding items",
     iconName: "Milk",
     bg: "bg-orange-50",
-    img: "./src/img/Baby Groceries.png",
+    img: "./src/img/2.png",
     color: "from-orange-400 to-orange-600"
   },
   {
@@ -29,7 +29,7 @@ export const CATEGORIES: Category[] = [
     desc: "Rompers, newborn sets, caps, socks",
     iconName: "Shirt",
     bg: "bg-pink-50",
-    img: "./src/img/Baby Clothing.png",
+    img: "./src/img/3.png",
     color: "from-pink-400 to-pink-600"
   },
   {
@@ -37,7 +37,7 @@ export const CATEGORIES: Category[] = [
     desc: "Toys, hampers, decorations",
     iconName: "Gift",
     bg: "bg-purple-50",
-    img: "./src/img/Fancy & Gift Items.png",
+    img: "./src/img/4.png",
     color: "from-purple-400 to-purple-600"
   }
 ];
@@ -77,7 +77,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Baby Cheramy Essentials Set", 
     price: "Rs. 1,250.00", 
-    img: "./src/img/Baby Cheramy Essentials Set.jpg",
+    img: "./src/img/5.jpg",
     desc: "Trusted protection with soap, cologne, and oil.",
     rating: 4.8,
     reviews: 342,
@@ -86,7 +86,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Marvel Baby Taped Diapers", 
     price: "Rs. 2,450.00", 
-    img: "./src/img/Marvel Baby Taped Diapers.png",
+    img: "./src/img/6.png",
     desc: "Ultra-absorbent layers with 12-hour protection.",
     rating: 4.9,
     reviews: 521,
@@ -95,7 +95,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "DBWL-01 Baby Walker", 
     price: "Rs. 8,900.00", 
-    img: "./src/img/DBWL-01 Baby Walker.jpg",
+    img: "./src/img/7.jpg",
     desc: "Safe and fun walker with musical tray.",
     rating: 4.7,
     reviews: 218,
@@ -104,7 +104,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Ultimate Hospital Kit", 
     price: "Rs. 15,500.00", 
-    img: "./src/img/Ultimate Hospital Kit.png",
+    img: "./src/img/8.png",
     desc: "Complete set for your hospital delivery stay.",
     rating: 4.9,
     reviews: 456,
@@ -113,7 +113,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Organic Cotton Romper", 
     price: "Rs. 1,850.00", 
-    img: "./src/img/Organic Cotton Romper.png",
+    img: "./src/img/9.png",
     desc: "Soft, breathable cotton for newborn skin.",
     rating: 4.8,
     reviews: 389,
@@ -122,7 +122,7 @@ export const FEATURED_PRODUCTS: Product[] = [
   { 
     name: "Newborn Gift Hamper", 
     price: "Rs. 12,000.00", 
-    img: "./src/img/Newborn Gift Hamper.jpg",
+    img: "./src/img/10.jpg",
     desc: "Perfectly curated gift set for new arrivals.",
     rating: 4.9,
     reviews: 634,
