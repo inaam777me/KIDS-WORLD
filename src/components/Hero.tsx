@@ -88,7 +88,7 @@ export const Hero = () => (
         <div className="relative z-10 rounded-[40px] overflow-hidden border-[12px] border-white card-shadow aspect-[4/5]">
           <img 
             src={heroShowcaseImg} 
-            alt="Kids World Baby Boutique Shop Interior" 
+            alt="World Baby Kids Baby Boutique Shop Interior" 
             className="w-full h-full object-cover"
           />
         </div>
@@ -99,3 +99,4 @@ export const Hero = () => (
     </div>
   </section>
 );
+

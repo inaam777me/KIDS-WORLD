@@ -152,7 +152,7 @@ export const TESTIMONIALS = [
     role: "Mom of two" 
   },
   { 
-    text: "Fast delivery and great customer service. Highly recommend Kids World!", 
+    text: "Fast delivery and great customer service. Highly recommend World Baby Kids!", 
     author: "Emily R.", 
     role: "First-time Mom" 
   }
@@ -171,3 +171,4 @@ export const SOCIAL_LINKS = [
   { name: "Facebook", url: "#" },
   { name: "Twitter", url: "#" }
 ];
+

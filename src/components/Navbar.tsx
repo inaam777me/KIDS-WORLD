@@ -12,7 +12,7 @@ export const Navbar = () => {
           <div className="w-10 h-10 bg-gradient-to-br from-baby-pink to-baby-rose rounded-full flex items-center justify-center animation-pulse">
             <Baby className="text-white w-6 h-6" />
           </div>
-          <span className="text-xl font-display font-bold text-slate-900">Kids World</span>
+          <span className="text-xl font-display font-bold text-slate-900">World Baby Kids</span>
         </div>
 
         {/* Desktop Menu */}
@@ -63,3 +63,4 @@ export const Navbar = () => {
     </nav>
   );
 };
+

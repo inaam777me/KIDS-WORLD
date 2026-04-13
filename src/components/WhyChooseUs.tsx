@@ -44,7 +44,7 @@ export const WhyChooseUs = () => (
         transition={{ duration: 0.6 }}
         className="order-1 lg:order-2"
       >
-        <h2 id="why-heading" className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 md:mb-8">Why Parents Trust <span className="text-baby-rose">Kids World</span></h2>
+        <h2 id="why-heading" className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 md:mb-8">Why Parents Trust <span className="text-baby-rose">World Baby Kids</span></h2>
         <p className="text-lg text-slate-600 mb-8 leading-relaxed">
           We understand that being a new parent is both exciting and overwhelming. That's why we've dedicated ourselves to providing only the best, safest, and most essential products for your newborn.
         </p>
@@ -62,3 +62,4 @@ export const WhyChooseUs = () => (
     </div>
   </section>
 );
+

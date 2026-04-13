@@ -17,7 +17,8 @@ export const MapSection = () => (
       allowFullScreen={true} 
       loading="lazy" 
       referrerPolicy="no-referrer-when-downgrade"
-      title="Kids World Location Map"
+      title="World Baby Kids Location Map"
     />
   </section>
 );
+
