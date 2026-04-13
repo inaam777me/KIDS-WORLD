@@ -5,7 +5,7 @@ export const Hero = () => (
   <section className="relative min-h-screen flex items-center pt-20 overflow-hidden" role="banner">
     <div className="absolute inset-0 z-0">
       <img 
-        src="https://picsum.photos/seed/baby-hero/1920/1080" 
+        src="https://picsum.photos/seed/baby-shop/1920/1080" 
         alt="Beautiful newborn baby in crib" 
         className="w-full h-full object-cover opacity-20"
         referrerPolicy="no-referrer"
@@ -86,7 +86,7 @@ export const Hero = () => (
       >
         <div className="relative z-10 rounded-[40px] overflow-hidden border-[12px] border-white card-shadow aspect-[4/5]">
           <img 
-            src="/367489ca-c0fb-4e28-872c-b5288a83a70e - Edited.jpg" 
+            src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&h=750&fit=crop" 
             alt="Kids World Baby Boutique Shop Interior" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
