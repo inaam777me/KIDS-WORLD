@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { MessageCircle, ChevronRight, Sparkles } from "lucide-react";
+import { BRAND_NAME } from "../constants";
 import heroBackgroundImg from "../img/1.jpg";
 import heroShowcaseImg from "../img/shop.jpg";
 
@@ -88,7 +89,7 @@ export const Hero = () => (
         <div className="relative z-10 rounded-[40px] overflow-hidden border-[12px] border-white card-shadow aspect-[4/5]">
           <img 
             src={heroShowcaseImg} 
-            alt="World Baby Kids Baby Boutique Shop Interior" 
+            alt={`${BRAND_NAME} Baby Boutique Shop Interior`} 
             className="w-full h-full object-cover"
           />
         </div>

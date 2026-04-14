@@ -1,5 +1,5 @@
 import { MapPin } from "lucide-react";
-import { CONTACT_INFO } from "../constants";
+import { BRAND_NAME, CONTACT_INFO } from "../constants";
 
 export const MapSection = () => (
   <section className="h-[500px] w-full bg-slate-200 relative">
@@ -17,7 +17,7 @@ export const MapSection = () => (
       allowFullScreen={true} 
       loading="lazy" 
       referrerPolicy="no-referrer-when-downgrade"
-      title="World Baby Kids Location Map"
+      title={`${BRAND_NAME} Location Map`}
     />
   </section>
 );

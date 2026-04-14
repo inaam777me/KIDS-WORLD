@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { Menu, X, Search, Baby, MessageCircle, ChevronRight } from "lucide-react";
+import { BRAND_NAME } from "../constants";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ export const Navbar = () => {
           <div className="w-10 h-10 bg-gradient-to-br from-baby-pink to-baby-rose rounded-full flex items-center justify-center animation-pulse">
             <Baby className="text-white w-6 h-6" />
           </div>
-          <span className="text-xl font-display font-bold text-slate-900">World Baby Kids</span>
+          <span className="text-xl font-display font-bold text-slate-900">{BRAND_NAME}</span>
         </div>
 
         {/* Desktop Menu */}

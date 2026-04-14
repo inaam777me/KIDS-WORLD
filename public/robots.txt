@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://inaam777me.github.io/WORLD-BABY-KIDS/sitemap.xml
+Sitemap: https://inaam777me.github.io/KIDS-WORLD/sitemap.xml

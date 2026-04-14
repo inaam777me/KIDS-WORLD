@@ -17,6 +17,8 @@ import productHospitalKitImg from "../img/8.png";
 import productRomperImg from "../img/9.png";
 import productHamperImg from "../img/10.jpg";
 
+export const BRAND_NAME = "KIDS-WORLD";
+
 export const CATEGORIES: Category[] = [
   {
     title: "Hospital Delivery Essentials",
@@ -152,7 +154,7 @@ export const TESTIMONIALS = [
     role: "Mom of two" 
   },
   { 
-    text: "Fast delivery and great customer service. Highly recommend World Baby Kids!", 
+    text: "Fast delivery and great customer service. Highly recommend KIDS-WORLD!", 
     author: "Emily R.", 
     role: "First-time Mom" 
   }

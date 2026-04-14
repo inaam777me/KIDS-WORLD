@@ -1,4 +1,5 @@
 import { Baby, Instagram, Facebook, Twitter } from "lucide-react";
+import { BRAND_NAME } from "../constants";
 
 export const Footer = () => (
   <footer className="bg-white pt-20 md:pt-24 pb-12">
@@ -9,7 +10,7 @@ export const Footer = () => (
             <div className="w-10 h-10 bg-baby-pink rounded-full flex items-center justify-center">
               <Baby className="text-baby-rose w-6 h-6" />
             </div>
-            <span className="text-2xl font-display font-bold text-slate-900">World Baby Kids</span>
+            <span className="text-2xl font-display font-bold text-slate-900">{BRAND_NAME}</span>
           </div>
           <p className="text-slate-500 leading-relaxed mb-8 text-sm md:text-base">
             Caring for your little one starts here. We provide premium newborn essentials for a happy, healthy start to life.
@@ -56,7 +57,7 @@ export const Footer = () => (
       </div>
       
       <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-400">
-        <p>© 2026 World Baby Kids. All rights reserved.</p>
+        <p>&copy; 2026 {BRAND_NAME}. All rights reserved.</p>
         <div className="flex gap-6 md:gap-8">
           <a href="#" className="hover:text-slate-600 transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-slate-600 transition-colors">Terms of Service</a>
